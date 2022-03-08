@@ -1,0 +1,23 @@
+body {
+  margin: 10px;
+}
+
+.product {
+  color: rgb(27, 102, 77);
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+a[href^="https"][hrefs$=".com"] {
+  color: rgb(153, 60, 37);
+}
+
+a{
+    font-size: large;
+    margin: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: coral;
+}

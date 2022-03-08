@@ -1,0 +1,21 @@
+h1{
+    color: dodgerblue;
+}
+
+.highlight{
+    color: crimson;
+}
+
+#products{
+    color: chartreuse;
+}
+
+.featured #products{
+    color: #8b0000;
+}
+/* ul{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid maroon;
+    border-radius: 8px;
+} */

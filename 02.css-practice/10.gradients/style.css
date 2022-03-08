@@ -1,0 +1,56 @@
+.box-1 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(146, 190, 235),
+    rgb(134, 255, 134)
+  );
+}
+.box-2 {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    45deg,
+    rgb(146, 190, 235),
+    rgb(134, 255, 134) 30%
+  );
+}
+.box-3 {
+  margin: 20px;
+  width: 600px;
+  height: 200px;
+  background: radial-gradient(
+    circle at top left,
+    rgb(21, 255, 0),
+    rgb(17, 0, 255)
+  );
+}
+
+.gradient-sites {
+  background-color: rgb(78, 103, 150);
+  padding: 20px;
+  margin: 10px;
+  border: 6px solid rgba(146, 146, 8, 0.589);
+  border-radius: 8px;
+  text-decoration: none;
+  color: honeydew;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+a:hover {
+  color: rgb(59, 255, 59);
+}
+
+a:visited,
+:focus {
+  color: rgb(170, 169, 169);
+}

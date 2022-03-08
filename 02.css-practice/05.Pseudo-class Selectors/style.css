@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+
+/* article p:first-of-type{
+    font-size: x-large;
+    color: blueviolet;
+    font-style: italic;
+} */
+
+/* article p:last-of-type{
+    font-weight: bolder;
+    color: rgb(123, 255, 0);
+} */
+
+a:visited,
+a:link{
+    color: dodgerblue;
+    font-weight: 900;
+    padding:10px;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus{
+    color: rgb(161, 56, 121);
+    padding: 16px;
+    margin: 10px;
+}
+/* article :last-of-type{
+    text-decoration: none;
+    color: gold;
+    font-size: 20px;
+} */
+
+ul li:nth-child(odd){
+    color: tomato;
+}
+
+ 

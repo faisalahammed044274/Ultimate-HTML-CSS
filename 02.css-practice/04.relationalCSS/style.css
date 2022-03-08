@@ -1,0 +1,10 @@
+body {
+  margin: 10px;
+}
+/* 
+To select direct child use (>) and for siblings use (+) single and use (~) for all  
+if the slection area is not changed in the future then we can use Relational Selectors.
+*/
+#products ~ p {
+  color: rgb(216, 81, 27);
+}
