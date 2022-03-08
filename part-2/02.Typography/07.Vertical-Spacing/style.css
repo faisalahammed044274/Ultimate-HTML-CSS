@@ -1,0 +1,39 @@
+body {
+  margin: 10px;
+}
+h1{
+  color:rgb(255, 106, 0);
+  background-color: lightgreen;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.para{
+  color: #5a119e;
+  background-color: aquamarine;
+  padding: 2rem;
+  border-radius: 62px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+.vertical-spacing{
+  height: 200px;
+  width:40%;
+  color: #e9e6ec;
+  background-color: rgb(76, 180, 76);
+  padding: 20px;
+  border: 3px solid #5a119e;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px #9c92a8;
+  margin: 10px;
+}
+
+.left-align{
+  float: left;
+}
+.right-align{
+  float: right;
+}
