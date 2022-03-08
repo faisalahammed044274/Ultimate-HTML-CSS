@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 10px;
+}
+
+.box::before{
+    content:"Hello";
+}
+
+.box{
+
+    width: 100px;
+    height:100px;
+    background: radial-gradient(circle at top left,rgb(143, 189, 143),rgb(233, 233, 138),rgb(230, 142, 142));
+    display: inline-block;
+}

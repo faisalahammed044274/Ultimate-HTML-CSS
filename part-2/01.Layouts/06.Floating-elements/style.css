@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+
+.avatar{
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+}
+.tweet{
+  border: 3px solid lightslategray;
+  overflow: auto;  /* Method - three */
+}
+
+
+/* Method - Two */
+/* .clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+} */
+
+/* Method - One */
+/* .clear{
+  clear: left;
+  margin: 2px;
+} */

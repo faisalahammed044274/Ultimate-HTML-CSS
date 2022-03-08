@@ -1,0 +1,31 @@
+body{
+    margin: 5px;
+}
+
+.container{
+    display: grid;
+    border: 3px solid #6d1818;
+    gap: 5px 5px;
+    height: 100vh;
+    grid-template: 100px auto 100px /20fr 80fr;
+    grid-template-areas: 
+    "header header" 
+    "sidebar main" 
+    "footer footer";
+    grid-template-rows:50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+}
+
+.box{
+    
+    background: #bdc3c7;
+}
+
+.box-a{
+    grid-column: 1 / span 3;
+    grid-area: header;
+}
+
+.box-d{
+    grid-area: footer;
+}

@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background: gold;
+  padding: 1rem;
+}
+
+.box:nth-last-of-type(2) {
+  background: dodgerblue;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+  .box {
+    background: rgb(228, 225, 225);
+  }
+}
+
+@media print {
+  body {
+    font-size: 12pt;
+  }
+  .box{
+    padding: 0.5px;
+  }
+}

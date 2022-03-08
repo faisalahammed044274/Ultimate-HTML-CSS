@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+
+.flexbox-grid {
+  background-color: #90ee90;
+  color: #2516fd;
+  margin-top: 30px;
+  padding: 10px;
+  border: 3px solid#4169e1;
+}
+
+.container {
+  display: grid;
+  /* grid-template-rows: repeat(3,100px);
+  grid-template-columns: repeat(2,200px); */
+  /* grid-template: repeat(3,100px)/repeat(2,100px); */
+  grid-template: 100px auto 100px/ 40fr 60fr;
+  grid-template-areas: 
+  "header header" "sidebar main" ". footer";
+  border: 3px solid rgb(109, 106, 106);
+  /* row-gap: 10px;
+  column-gap: 10px; */
+  gap: 10px 10px;
+  /* justify-items: stretch;
+  align-items:stretch; */
+  height: 100vh;
+}
+
+.box {
+  background-color: gold;
+}
+
+.box-one {
+  /* grid-column: 1/-1; */
+  grid-column: 1 / span 2;
+  /* grid-row: 1; */
+  /* start-end || row-column */
+  grid-area: header;
+}
+.box-four{
+  grid-area: footer;
+}

@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+.measurement-units {
+  color: aqua;
+  background-color: blueviolet;
+  padding: 20px;
+  box-sizing: border-box;
+  border-top: 5px solid grey;
+}
+
+.absoulate {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border-top: 3px solid orangered;
+}
+
+.relative {
+  width: 50vw;
+  height: 100vh;
+  background-color: greenyellow;
+  border-top: 1em solid rgb(53, 49, 26);
+}
+
+.font-relative {
+  width: 20rem;
+  height: 40vh;
+  background-color: brown;
+
+  /* em 10X based on root font */
+  /* rem 16X based on default font as (dafault font size * rem size) */
+}

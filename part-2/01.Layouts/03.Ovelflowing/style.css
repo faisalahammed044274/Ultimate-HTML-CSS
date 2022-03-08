@@ -1,0 +1,9 @@
+.box{
+    margin: 10px;
+    border: 8px solid gold;
+    border-radius: 8px;
+    width: 250px;
+    height: 150px;
+    overflow: auto;
+    /* overflow:auto; auto,scroll & hidden */
+}

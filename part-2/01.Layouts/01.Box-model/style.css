@@ -1,0 +1,25 @@
+body{
+    margin: 5px;
+    padding: 5px;
+    color: chocolate;
+    background-color: rgb(206, 233, 255);
+}
+
+/* .box-model-info{
+    margin: 15px;
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: honeydew;
+    color: rgb(92, 87, 87);
+} */
+
+p{
+    padding: 10px 20px; /*trbl*/
+    border: 5px solid gold;
+    font-size: larger;
+}
+p{
+    padding: 0;
+    margin: 30px;
+}
