@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+
+.css-spritinfo{
+  width: 35%;
+  height: auto;
+  background-color: rgb(160, 255, 116);
+  color: #4e0010;
+  margin: 40px;
+  padding: 30px;
+  border: 3px solid #4e0010;
+  border-radius: 8px;
+}

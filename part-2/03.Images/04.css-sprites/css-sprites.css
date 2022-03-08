@@ -1,0 +1,35 @@
+.css-sprite-saturn
+{
+background:url('css-sprite-combined.png') -5px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.css-sprite-ufo
+{
+background:url('css-sprite-combined.png') -110px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.css-sprite-dishes
+{
+background:url('css-sprite-combined.png') -215px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.css-sprite-landing
+{
+background:url('css-sprite-combined.png') -320px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.css-sprite-rocketship
+{
+background:url('css-sprite-combined.png') -425px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+

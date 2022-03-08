@@ -1,0 +1,21 @@
+body {
+  margin: 5px;
+}
+
+.conversiontowebp{
+  width: 30rem;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 5px 18px gray;
+ background-color: #ffd7d7;
+ color:#af0d0d;
+}
+
+.conversiontowebp a{
+  text-decoration: none;
+  color: #f70000;
+}
+.conversiontowebp a:hover{
+  font-size: larger;
+  color: #078818;
+}

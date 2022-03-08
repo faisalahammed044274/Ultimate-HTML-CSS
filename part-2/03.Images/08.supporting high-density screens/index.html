@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supporrting high density screens</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      src="../images/meal.jpg"
+      alt="meal"
+      class="meal"
+    />
+    <img
+      src="../images/meal.jpg"
+      alt="meal"
+      class="meal"
+      srcset="
+        ../images/meal.jpg 1x,
+        ../images/meal@2x.jpg 2x,
+        ../images/meal@3x.jpg 3x
+      "
+    />
+    <img
+      src="../images/meal.jpg"
+      alt="meal"
+      class="meal"
+      srcset="
+        ../images/meal.jpg    1x,
+        ../images/meal@2x.jpg,
+        ../images/meal@3x.jpg
+      "
+    />
+    <img
+      src="../images/meal.jpg"
+      alt="meal"
+      class="meal"
+      srcset="
+        ../images/meal.jpg    1x,
+        ../images/meal@2x.jpg,
+        ../images/meal@3x.jpg
+      "
+    />
+    <hr />
+    <div class="hd-density-screen-info">
+      <h4>Terms</h4>
+      <p>Use srcset attributes</p>
+      <table>
+        <tr>
+          <td>Physical resolution</td>
+          <td>960*640</td>
+        </tr>
+        <tr>
+          <td>Logical resolution</td>
+          <td>480*320</td>
+        </tr>
+        <tr>
+          <td>Device Pixel Ration (DPR)</td>
+          <td>physical/logical || 1/2 or 2,3,4 and so on</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

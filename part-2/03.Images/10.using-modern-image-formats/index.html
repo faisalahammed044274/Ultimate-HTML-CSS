@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Modern Images Format</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="conversiontowebp">
+      <h3>Way of Conversion to Webp</h3>
+      <ul>
+        <li>Photoshop (WebPShop plug-in)</li>
+        <li>Sketch - get options</li>
+        <li>Online tools - <a href="https://cloudconvert.com/jpg-to-webp">https://cloudconvert.com/jpg-to-webp</a></li>
+        <li>Command-line tools</li>
+      </ul>
+    </div>
+    <hr>
+    <!--
+    <img src="../images/meal.jpg" alt="">
+    <img src="../images/meal.webp" alt=""> -->
+    <picture>
+      <source type="image/webp" srcset="../images/meal.webp 1x, ../images/meal@2x.webp 2x, ">
+      <source type="image/jpeg" srcset="../images/meal.jpg">
+      <img src="../images/meal.jpg" alt="meal">
+    </picture>
+  </body>
+</html>

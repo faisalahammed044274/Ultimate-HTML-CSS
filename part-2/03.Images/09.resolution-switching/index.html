@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resolution Switching</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      src="../images/meal.jpg"
+      alt="A bowl of salmon fish and curry"
+      class="meal"
+      srcset="
+        ../images/meal.jpg     400w,
+        ../images/meal@2x.jpg  800w,
+        ../images/meal@3x.jpg 1200w
+      "
+      sizes="
+      (max-width: 500px) 100vw,
+      (max-width: 700px) 50vw,
+      33vw"
+    />
+    <div class="resolution-switching">
+      <h4>RETINA DISPLAYS</h4>
+      <table>
+        <tr>
+          <td>I phone 8</td>
+          <td>667 x 375</td>
+        </tr>
+        <tr>
+          <td>I pad pro 11"</td>
+          <td>1024 x 768</td>
+        </tr>
+        <tr>
+          <td>Macbook Pro 15"</td>
+          <td>1440 x 900</td>
+        </tr>
+      </table>
+      <p> to know more go to <a href="https://responsivebreakpoints.com/">https://responsivebreakpoints.com/</a></p>
+    </div>
+  </body>
+</html>

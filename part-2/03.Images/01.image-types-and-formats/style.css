@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+.thead-info{
+  text-transform: uppercase;
+  color: #ff0000;
+}
+
+table{
+  border: 3px solid rgb(71, 71, 71);
+  width: 40%;
+  height: auto;
+  box-shadow: 5px 8px 12px #cecece;
+}
+thead tr td{
+  font-size: larger;
+  font-weight: bold;
+  background-color: #cecece;
+  color: #ff0000;
+  padding: 10px;
+}
+
+tr{
+  background-color: #cecece;
+  margin: 2px;
+  text-align: center;
+  color: #ff0000;
+}
+
+table tr:hover{
+  color: rgb(255, 255, 255);
+  background: linear-gradient(#5e5355,#574922);
+  box-shadow: 10 8px 13px rgb(69, 87, 41);
+  font-size: x-large;
+}
+
+tr:nth-child(odd) {
+  background: rgb(224, 216, 216);
+}

@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+
+table {
+  background-color: rgb(240, 220, 220);
+  color: rgb(131, 131, 18);
+  border: 3px solid #b196b1;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+table tr td {
+  border-bottom: 3px solid #b196b1;
+  padding: 1rem;
+}
+
+.meal{
+  width: 400px;
+  margin: 20px;
+}

@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+}
+.data-uris-info{
+  width: 40rem;
+  background-color: #7fffd4;
+  color: grey;
+  padding: 15px;
+  border: 3px solid #c24c4c;
+  border-radius: 12px;
+}
+.data-uris-info a{
+  text-decoration: none;
+  color: green;
+}
+
+.data-uris-info a:hover{
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+}

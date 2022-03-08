@@ -1,0 +1,18 @@
+.meal{
+  margin: 5px;
+}
+
+.resolution-switching{
+  background-color: #00dae6;
+  color: #038303;
+  border: 3px solid #6d0e0e;
+  border-radius: 8px;
+  width: 30%;
+  padding: 20px;
+}
+
+.resolution-switching tr td{
+  color: #038303;
+  border-bottom: 3px solid #256e25;
+  font-size: larger;
+}

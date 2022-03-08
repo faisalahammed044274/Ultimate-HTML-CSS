@@ -1,0 +1,10 @@
+body {
+  margin: 10px;
+}
+.icons{
+  font-size: 5rem;
+  color: rgb(137, 255, 143);
+  border: 5px solid rgb(43, 71, 1);
+  border-radius: 8px;
+  padding: 70px;
+}
