@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Structuring Web Pages</title>
+    <style>
+      header, main, footer, aside{
+        border: 2px solid red;
+        margin: 10px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- header represent introductory content -->
+      <nav>
+        <h3>Header :</h3>
+        <ul>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Courses</li>
+          <li>Contact us</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h3>Main :</h3>
+      <!-- Only one main element in the main section if use 2 or multiple it will
+      make validation error -->
+      <section>
+        <!-- section element for use a group related content. -->
+        <h2>Products</h2>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, voluptatibus.</article>
+        <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, totam?</article>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, omnis?</article>
+      </section>
+      <section>
+        <h2>Testimonial</h2>
+        <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore laudantium asperiores consectetur excepturi dignissimos doloremque nemo voluptatem incidunt magnam quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum incidunt molestias, vitae mollitia dignissimos, nesciunt error reprehenderit excepturi nihil rerum fuga ex cum? Dolorum ut omnis ex reiciendis magnam porro!</article>
+        <article>
+          <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ratione?</section>
+          <section>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, debitis.</section>
+          <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, exercitationem.</section>
+        </article>
+      </section>
+    </main>
+    <aside>
+      <h3>Aside :</h3>
+      <!-- aside element for representing content directly maintain to the main content. -->
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque labore omnis animi fugit nesciunt maxime alias repellat corporis eius, aspernatur, inventore commodi provident reprehenderit, incidunt modi odit vitae illo ipsam.
+    </aside>
+    <footer>
+      <h3>Footer :</h3>
+      <!-- footer element also introduce content -->
+      <nav>
+        <ul>
+          <li>footer data 1</li>
+          <li>footer data 2</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

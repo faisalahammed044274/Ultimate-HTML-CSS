@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      * {
+        background-color: honeydew;
+      }
+      table,
+      td , tr{
+        border: 2px solid grey;
+        padding: 10px;
+        color: rgb(236, 9, 9);
+        font-size: larger;
+        border-collapse: collapse;
+      }
+      tfoot{
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">Business Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Accounting</td>
+              <td>&dollar;1200</td>
+              <td>On Process</td>
+            </tr>
+            <tr>
+                <td>Design</td>
+                <td>&dollar;1400</td>
+                <td>Paid</td>
+            </tr>
+            <tr>
+              <td>Marketing</td>
+              <td>&dollar;1000</td>
+              <td>On Process</td>
+            </tr>
+        <tr>
+          <td>Development</td>
+          <td>&dollar;1800</td>
+          <td>Paid</td>
+        </tr>
+      </tbody>
+      <tfoot>
+          <td>Total</td>
+          <td colspan="2">&dollar;5400</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
