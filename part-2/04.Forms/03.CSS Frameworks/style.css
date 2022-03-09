@@ -1,8 +1,23 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-body {
-  margin: 10px;
-}
+.css-frameworks {
+    width: 30%;
+    height: 20%;
+    background-color: #945858;
+    color: azure;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0.3rem 0.7rem 34px rgb(179, 179, 179);
+    position: relative;
+    margin: 2rem 2rem;
+  }
+
+  a {
+    color: azure;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #7db0fb;
+    text-shadow: 0.7rem 0.5rem 20px lightgray;
+    font-size: large;
+  }
+  
