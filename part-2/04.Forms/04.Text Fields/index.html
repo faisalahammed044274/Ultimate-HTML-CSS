@@ -4,10 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Forms</title>
+    <title>Text Fields</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <!-- Miligram CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
   </head>
   <body>
+    <form action="">
+      <label for="name">Name :</label>
+      <input type="text" name="name" id="" placeholder="Faisal" autofocus />
+      <label for="email">Email Address :</label>
+      <input type="email" name="email" id="" placeholder="faisal@gmsfef.com" readonly />
+      <label for="phone">Phone Number :</label>
+      <input type="tel" name="phone" id="" placeholder="+880983327537" disabled />
+      <label for="password">Password :</label>
+      <input type="password" name="password" id="" />
+      <label for="address">Address :</label>
+      <textarea name="address" id="" cols="30" rows="10" maxlength="80" minlength="8"></textarea>
+      <label for="student_check">Is Student ?</label>
+      <input type="checkbox" name="student_check" id="" />
+      <label for="datetime">Input Date Time :</label>
+      <input type="datetime" name="datetime" id="" />
+      <label for="website"> Website :</label>
+      <input type="url" name="website" id="" />
+      <label for="upload_image">Upload Image :</label>
+      <input type="file" name="upload_image" id="" />
+      <br /><input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
   </body>
 </html>
