@@ -10,5 +10,18 @@ form {
   color: honeydew;
   width: 30%;
   padding: 30px;
-  box-shadow: 3px 4px 25px rgb(128, 128, 128, 65%);
+  box-shadow: 3px 4px 25px rgba(124, 24, 24, 0.65);
+}
+
+.data-validation-info{
+  width: 45%;
+  color: rgb(90, 30, 30);
+  background-color: lightgreen;
+  font-style:oblique;
+  font-weight: bold;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 3px solid greenyellow;
+  border-radius: 8px;
+  box-shadow: 3px 5px 24px rgba(56, 61, 68, 0.45);
 }

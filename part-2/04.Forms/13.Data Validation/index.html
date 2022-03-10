@@ -13,5 +13,46 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
     />
   </head>
-  <body></body>
+  <body>
+    <form action="">
+      <div>
+        <label for="">Input your Name :</label>
+        <input
+          class="label-inline"
+          type="text"
+          required
+          minlength="4"
+          maxlength="12"
+        />
+      </div>
+      <div>
+        <label for="">Input your Email :</label>
+        <input class="label-inline" type="email" required />
+      </div>
+      <div>
+        <label for="">Input your Number :</label>
+        <input class="label-inline" type="tel" required max="12" />
+      </div>
+      <div>
+        <label for="">Input Date :</label>
+        <input class="label-inline" type="date" required />
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+    <div class="data-validation-info">
+      <h4>Data Validation (Basic)</h4>
+      <p>JavaScript for the advanced validation.</p>
+      <ul>
+        <li>Required fields</li>
+        <li>Emails</li>
+        <li>Numbers</li>
+        <li>Dates</li>
+      </ul>
+      <p>
+        Data Validation required for security because of safe data submission
+        into server. it will help data corruption.
+      </p>
+    </div>
+  </body>
 </html>
