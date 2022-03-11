@@ -23,7 +23,4 @@ body {
   color: rgb(123, 255, 0);
 }
 
-.animate__heartBeat{
-  --animate-duration: 80ms;
-  --animate-delay: 0.9s
-}
+
