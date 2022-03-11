@@ -13,7 +13,7 @@ h3 {
   justify-content: center;
 }
 
-p:hover {
+p{
   padding: 10px;
 }
 @keyframes best {
