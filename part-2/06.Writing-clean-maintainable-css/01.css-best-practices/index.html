@@ -4,9 +4,37 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Writing clean maintainable CSS</title>
+    <title>CSS Best Practices</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mystyle.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="nav">
+      <h3>Best Pactices - CSS</h3>
+      <ul class="items">
+        <li class="nav-item">Follow a naming convention</li>
+        <p>
+          <strong
+            >Get decision from your team which naming convention is
+            used.</strong
+          >
+          <br />
+          kabob-case || ex: css-naming<br />
+          PascelCase || ex: CssNaming <br />
+          camelCase || ex:cssNaming <br />
+          under_score || ex: css_naming
+        </p>
+        <li class="nav-item">Create logical sections in your stylesheet</li>
+        <p>
+          SASS <br />
+          LESS
+        </p>
+        <li class="nav-item">Avoid over specific selectors</li>
+        <p>Don't use many specific selectors. It'll make massy.</p>
+        <li class="nav-item">Avoid ( !important )</li>
+        <p>Try to not use !important keyword.</p>
+      </ul>
+    </nav>
+  </body>
 </html>

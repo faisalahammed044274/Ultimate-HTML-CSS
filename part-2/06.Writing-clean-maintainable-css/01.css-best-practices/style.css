@@ -1,8 +1,39 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-body {
+.nav {
+  background-color: rgb(245, 190, 119);
+  border-radius: 8px;
+  border: 3px solid #8ba13a;
+  box-shadow: 3px 5px 25px grey;
+  height: auto;
   margin: 10px;
+  padding: 10px;
+  width: 40%;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+p:hover {
+  padding: 10px;
+}
+@keyframes best {
+  0% {
+    transform: rotate(10deg);
+  }
+  15% {
+    transform: rotate(-10deg);
+  }
+}
+
+.nav:hover {
+  animation: best 1s;
+}
+
+.nav-item {
+  background: #8ba13a;
+  border-radius: 8px;
+  color: rgb(241, 239, 239);
+  font-weight: bold;
+  list-style: none;
+  padding: 10px;
 }
