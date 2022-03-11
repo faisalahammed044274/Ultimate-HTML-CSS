@@ -1,8 +1,30 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 body {
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  color: blueviolet;
+  box-shadow: 7px 9px 25px rgb(128, 128, 128, 0.45);
+}
+
+.container{
+  perspective: 200px;
+}
+.container:hover .box {
+  border-radius: 5px;
+  /* transform:perspective(200px) translateZ(-50px); */
+  /* transform:perspective(200px) translateZ(50px); */
+  /* transform: perspective(200px) rotateY(15deg); */
+  transform:  rotateY(15deg);
+  transform-origin: 0% 9%;
+}
+
+.container:hover .box-special{
+  transform: rotate(-45deg);
 }

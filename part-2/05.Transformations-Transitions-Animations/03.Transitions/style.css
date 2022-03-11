@@ -1,8 +1,24 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 body {
-  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  box-shadow: 7px 9px 25px rgb(128, 128, 128, 0.45);
+  /* transition: transform 0.8s linear; */
+  /* transition: transform 0.5s ease-in; */
+  /* transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); */
+  /* https://cubic-bezier.com/ */
+  transition: 0.6s, background 0.25s;
+}
+
+.box:hover{
+  transform: rotate(45deg);
+  background: dodgerblue;
+
 }
