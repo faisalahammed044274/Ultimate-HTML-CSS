@@ -4,18 +4,18 @@
   border: 3px solid #8ba13a;
   box-shadow: 3px 5px 25px grey;
   height: auto;
-  margin: 5px;
+  margin: 20px;
   padding: 5px;
   width: 40%;
+}
+ul li {
+  margin-bottom: 15px;
 }
 h3 {
   display: flex;
   justify-content: center;
 }
 
-p{
-  padding: 10px;
-}
 @keyframes best {
   0% {
     transform: rotate(10deg);

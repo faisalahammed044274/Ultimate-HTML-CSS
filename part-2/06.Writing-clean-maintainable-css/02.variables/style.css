@@ -1,8 +1,24 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
+:root{
+  --primary-color : #c8ee71;
+  --text-color:#ff0000;
+  --border-size: 1rem;
+  --border-radius: .3rem;
 }
-body {
-  margin: 10px;
+body{
+  margin: .5rem;
+}
+
+.one{
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.two{
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 1rem;
+  border-radius: var(--border-radius);
 }

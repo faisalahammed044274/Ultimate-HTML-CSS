@@ -1,8 +1,24 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 body {
   margin: 10px;
+  box-sizing: border-box;
+}
+
+.card{
+  background-color: greenyellow;
+  width: 30%;
+  box-shadow: 4px 6px 12px rgb(128, 128, 128,0.75);
+}
+
+.card__header, .card__body{
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+
+.card__btn{
+ color: yellowgreen;
+ background-color: yellow;
+ padding: 1rem;
+ margin: 1rem;
+ border-radius: 12px;
 }

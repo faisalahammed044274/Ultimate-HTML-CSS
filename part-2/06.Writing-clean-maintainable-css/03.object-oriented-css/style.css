@@ -1,8 +1,26 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 body {
   margin: 10px;
+}
+
+.btn{
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 4px 5px 12px rgb(128, 128, 128, .25);
+}
+
+.btn-primary{
+  background: rgb(105, 177, 199);
+}
+
+.btn-secondary{
+  background:rgb(178, 255, 178);
+}
+
+
+.object-oriented-css{
+  background-color: lightblue;
+  color:rgb(92, 102, 95);
+  border:3px dashed rgb(94, 140, 209);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:20px;
 }

@@ -4,9 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Writing clean maintainable CSS</title>
+    <title>Writing clean maintainable CSS - BEM</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- <h4>Bem Convention</h4> -->
+    <!-- -- for separating a block from a modifier
+    -- for separating a block from an element -->
+    <div class="card card--popular">
+      <div class="card__header">
+        <p>Lorem, ipsum dolor.</p>
+        <span class="card__price"
+          >Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </span>
+      </div>
+      <card class="card__body">
+        <button class="card__btn">Click Me</button>
+      </card>
+    </div>
+  </body>
 </html>
