@@ -200,10 +200,18 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
+  outline: 0;
   padding: 2rem 3rem;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
+}
+
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
 .btn--primary {
@@ -283,7 +291,7 @@ a {
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 
 .input-group .btn {
@@ -621,72 +629,97 @@ a {
 }
 
 .nav__item {
-  padding: .5rem 2rem;
-border-bottom: 1px solid #222 ;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #222;
 }
 
 .nav__item > a {
   color: #d2d0db;
-  transition: color 0.3s ;
+  transition: color 0.3s;
 }
 
-.nav__item>a:hover{
+.nav__item > a:hover {
   color: #fff;
 }
 
-.nav__toggler{
+.nav__toggler {
   opacity: 0.5;
-  transition: box-shadow .15s;
+  transition: box-shadow 0.15s;
   cursor: pointer;
 }
-.collapsible--expanded .nav__toggler{
+.collapsible--expanded .nav__toggler {
   opacity: 1;
   box-shadow: 0 0 0 3px #666;
   border-radius: 5px;
 }
-.nav__brand{
- transform: translateY(3px); 
+.nav__brand {
+  transform: translateY(3px);
 }
 
-@media screen and (min-width:768px){
-  .nav__toggler{
+@media screen and (min-width: 768px) {
+  .nav__toggler {
     display: none;
   }
 
-  .nav__list{
+  .nav__list {
     display: flex;
     font-size: 1.6rem;
     max-height: 100%;
     opacity: 1;
     width: auto;
   }
-  .nav__item{
+  .nav__item {
     border: 0;
   }
 }
 
 /* Hero */
 
-.hero{
-  clip-path: polygon(0% 0%,100% 0%,100% 90%,0% 100%);
+.hero {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
-.hero__tagline{
+.hero__tagline {
   color: #b9c3cf;
   font-size: 2rem;
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
 }
 
-.hero__image{
+.hero__image {
   width: 100%;
 }
 
-@media screen and (min-width:768px) {
-  .hero{
+@media screen and (min-width: 768px) {
+  .hero {
     padding: 0;
   }
-  .hero__content{
+  .hero__content {
     text-align: left;
     align-self: center;
+  }
+}
+
+/* Domain Block */
+.block-domain .input-group {
+  box-shadow: 0 0px 20px 10px #e6ebee;
+  border: 0;
+  margin: 4rem auto;
+  max-width: 670px;
+}
+
+.block-domain__prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  font-size: 2rem;
+  font-weight: 600;
+  justify-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 }
